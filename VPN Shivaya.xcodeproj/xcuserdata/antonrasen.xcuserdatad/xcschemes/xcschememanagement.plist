@@ -9,6 +9,34 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>VPNShivayaTunnel.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>2D5DDF732D59FDD2002882C3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2D5DDF832D59FDD4002882C3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2D5DDF8D2D59FDD4002882C3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2D5DDFA92D5A1EF6002882C3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 	</dict>
 </dict>
 </plist>

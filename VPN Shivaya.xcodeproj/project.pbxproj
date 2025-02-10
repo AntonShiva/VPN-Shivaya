@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		2D5DDFAD2D5A1EF6002882C3 /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D5DDFAC2D5A1EF6002882C3 /* NetworkExtension.framework */; };
+		2D5DDFB52D5A1EF6002882C3 /* VPNShivayaTunnel.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 2D5DDFAA2D5A1EF6002882C3 /* VPNShivayaTunnel.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		2D5DDF852D59FDD4002882C3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -21,13 +26,46 @@
 			remoteGlobalIDString = 2D5DDF732D59FDD2002882C3;
 			remoteInfo = "VPN Shivaya";
 		};
+		2D5DDFB32D5A1EF6002882C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D5DDF6C2D59FDD2002882C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D5DDFA92D5A1EF6002882C3;
+			remoteInfo = VPNShivayaTunnel;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2D5DDFBA2D5A1EF6002882C3 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				2D5DDFB52D5A1EF6002882C3 /* VPNShivayaTunnel.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		2D5DDF742D59FDD2002882C3 /* VPN Shivaya.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VPN Shivaya.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D5DDF842D59FDD4002882C3 /* VPN ShivayaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VPN ShivayaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D5DDF8E2D59FDD4002882C3 /* VPN ShivayaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VPN ShivayaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D5DDFAA2D5A1EF6002882C3 /* VPNShivayaTunnel.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = VPNShivayaTunnel.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D5DDFAC2D5A1EF6002882C3 /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		2D5DDFB62D5A1EF6002882C3 /* Exceptions for "VPNShivayaTunnel" folder in "VPNShivayaTunnel" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 2D5DDFA92D5A1EF6002882C3 /* VPNShivayaTunnel */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		2D5DDF762D59FDD2002882C3 /* VPN Shivaya */ = {
@@ -43,6 +81,14 @@
 		2D5DDF912D59FDD4002882C3 /* VPN ShivayaUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "VPN ShivayaUITests";
+			sourceTree = "<group>";
+		};
+		2D5DDFAE2D5A1EF6002882C3 /* VPNShivayaTunnel */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				2D5DDFB62D5A1EF6002882C3 /* Exceptions for "VPNShivayaTunnel" folder in "VPNShivayaTunnel" target */,
+			);
+			path = VPNShivayaTunnel;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -69,6 +115,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2D5DDFA72D5A1EF6002882C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D5DDFAD2D5A1EF6002882C3 /* NetworkExtension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -78,6 +132,8 @@
 				2D5DDF762D59FDD2002882C3 /* VPN Shivaya */,
 				2D5DDF872D59FDD4002882C3 /* VPN ShivayaTests */,
 				2D5DDF912D59FDD4002882C3 /* VPN ShivayaUITests */,
+				2D5DDFAE2D5A1EF6002882C3 /* VPNShivayaTunnel */,
+				2D5DDFAB2D5A1EF6002882C3 /* Frameworks */,
 				2D5DDF752D59FDD2002882C3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,8 +144,17 @@
 				2D5DDF742D59FDD2002882C3 /* VPN Shivaya.app */,
 				2D5DDF842D59FDD4002882C3 /* VPN ShivayaTests.xctest */,
 				2D5DDF8E2D59FDD4002882C3 /* VPN ShivayaUITests.xctest */,
+				2D5DDFAA2D5A1EF6002882C3 /* VPNShivayaTunnel.appex */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		2D5DDFAB2D5A1EF6002882C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D5DDFAC2D5A1EF6002882C3 /* NetworkExtension.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -102,10 +167,12 @@
 				2D5DDF702D59FDD2002882C3 /* Sources */,
 				2D5DDF712D59FDD2002882C3 /* Frameworks */,
 				2D5DDF722D59FDD2002882C3 /* Resources */,
+				2D5DDFBA2D5A1EF6002882C3 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				2D5DDFB42D5A1EF6002882C3 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
 				2D5DDF762D59FDD2002882C3 /* VPN Shivaya */,
@@ -163,6 +230,28 @@
 			productReference = 2D5DDF8E2D59FDD4002882C3 /* VPN ShivayaUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		2D5DDFA92D5A1EF6002882C3 /* VPNShivayaTunnel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D5DDFB72D5A1EF6002882C3 /* Build configuration list for PBXNativeTarget "VPNShivayaTunnel" */;
+			buildPhases = (
+				2D5DDFA62D5A1EF6002882C3 /* Sources */,
+				2D5DDFA72D5A1EF6002882C3 /* Frameworks */,
+				2D5DDFA82D5A1EF6002882C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				2D5DDFAE2D5A1EF6002882C3 /* VPNShivayaTunnel */,
+			);
+			name = VPNShivayaTunnel;
+			packageProductDependencies = (
+			);
+			productName = VPNShivayaTunnel;
+			productReference = 2D5DDFAA2D5A1EF6002882C3 /* VPNShivayaTunnel.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -184,6 +273,9 @@
 						CreatedOnToolsVersion = 16.2;
 						TestTargetID = 2D5DDF732D59FDD2002882C3;
 					};
+					2D5DDFA92D5A1EF6002882C3 = {
+						CreatedOnToolsVersion = 16.2;
+					};
 				};
 			};
 			buildConfigurationList = 2D5DDF6F2D59FDD2002882C3 /* Build configuration list for PBXProject "VPN Shivaya" */;
@@ -203,6 +295,7 @@
 				2D5DDF732D59FDD2002882C3 /* VPN Shivaya */,
 				2D5DDF832D59FDD4002882C3 /* VPN ShivayaTests */,
 				2D5DDF8D2D59FDD4002882C3 /* VPN ShivayaUITests */,
+				2D5DDFA92D5A1EF6002882C3 /* VPNShivayaTunnel */,
 			);
 		};
 /* End PBXProject section */
@@ -223,6 +316,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		2D5DDF8C2D59FDD4002882C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D5DDFA82D5A1EF6002882C3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -253,6 +353,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2D5DDFA62D5A1EF6002882C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -265,6 +372,11 @@
 			isa = PBXTargetDependency;
 			target = 2D5DDF732D59FDD2002882C3 /* VPN Shivaya */;
 			targetProxy = 2D5DDF8F2D59FDD4002882C3 /* PBXContainerItemProxy */;
+		};
+		2D5DDFB42D5A1EF6002882C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D5DDFA92D5A1EF6002882C3 /* VPNShivayaTunnel */;
+			targetProxy = 2D5DDFB32D5A1EF6002882C3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -402,8 +514,9 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -411,6 +524,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Anton-Reasin.VPN-Shivaya";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -431,8 +547,9 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -440,6 +557,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Anton-Reasin.VPN-Shivaya";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -518,6 +638,66 @@
 			};
 			name = Release;
 		};
+		2D5DDFB82D5A1EF6002882C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = VPNShivayaTunnel/VPNShivayaTunnel.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3565RSK98U;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VPNShivayaTunnel/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = VPNShivayaTunnel;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Anton-Reasin.VPN-Shivaya.VPNShivayaTunnel";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2D5DDFB92D5A1EF6002882C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = VPNShivayaTunnel/VPNShivayaTunnel.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3565RSK98U;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VPNShivayaTunnel/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = VPNShivayaTunnel;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Anton-Reasin.VPN-Shivaya.VPNShivayaTunnel";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -553,6 +733,15 @@
 			buildConfigurations = (
 				2D5DDF9F2D59FDD4002882C3 /* Debug */,
 				2D5DDFA02D59FDD4002882C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D5DDFB72D5A1EF6002882C3 /* Build configuration list for PBXNativeTarget "VPNShivayaTunnel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D5DDFB82D5A1EF6002882C3 /* Debug */,
+				2D5DDFB92D5A1EF6002882C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
