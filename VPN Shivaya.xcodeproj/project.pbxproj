@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		2D5DDF852D59FDD4002882C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D5DDF6C2D59FDD2002882C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D5DDF732D59FDD2002882C3;
+			remoteInfo = "VPN Shivaya";
+		};
+		2D5DDF8F2D59FDD4002882C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D5DDF6C2D59FDD2002882C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D5DDF732D59FDD2002882C3;
+			remoteInfo = "VPN Shivaya";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2D5DDF742D59FDD2002882C3 /* VPN Shivaya.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VPN Shivaya.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D5DDF842D59FDD4002882C3 /* VPN ShivayaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VPN ShivayaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D5DDF8E2D59FDD4002882C3 /* VPN ShivayaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VPN ShivayaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		2D5DDF762D59FDD2002882C3 /* VPN Shivaya */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "VPN Shivaya";
+			sourceTree = "<group>";
+		};
+		2D5DDF872D59FDD4002882C3 /* VPN ShivayaTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "VPN ShivayaTests";
+			sourceTree = "<group>";
+		};
+		2D5DDF912D59FDD4002882C3 /* VPN ShivayaUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "VPN ShivayaUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D5DDF712D59FDD2002882C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D5DDF812D59FDD4002882C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D5DDF8B2D59FDD4002882C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D5DDF6B2D59FDD2002882C3 = {
+			isa = PBXGroup;
+			children = (
+				2D5DDF762D59FDD2002882C3 /* VPN Shivaya */,
+				2D5DDF872D59FDD4002882C3 /* VPN ShivayaTests */,
+				2D5DDF912D59FDD4002882C3 /* VPN ShivayaUITests */,
+				2D5DDF752D59FDD2002882C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2D5DDF752D59FDD2002882C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D5DDF742D59FDD2002882C3 /* VPN Shivaya.app */,
+				2D5DDF842D59FDD4002882C3 /* VPN ShivayaTests.xctest */,
+				2D5DDF8E2D59FDD4002882C3 /* VPN ShivayaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D5DDF732D59FDD2002882C3 /* VPN Shivaya */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D5DDF982D59FDD4002882C3 /* Build configuration list for PBXNativeTarget "VPN Shivaya" */;
+			buildPhases = (
+				2D5DDF702D59FDD2002882C3 /* Sources */,
+				2D5DDF712D59FDD2002882C3 /* Frameworks */,
+				2D5DDF722D59FDD2002882C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				2D5DDF762D59FDD2002882C3 /* VPN Shivaya */,
+			);
+			name = "VPN Shivaya";
+			packageProductDependencies = (
+			);
+			productName = "VPN Shivaya";
+			productReference = 2D5DDF742D59FDD2002882C3 /* VPN Shivaya.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D5DDF832D59FDD4002882C3 /* VPN ShivayaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D5DDF9B2D59FDD4002882C3 /* Build configuration list for PBXNativeTarget "VPN ShivayaTests" */;
+			buildPhases = (
+				2D5DDF802D59FDD4002882C3 /* Sources */,
+				2D5DDF812D59FDD4002882C3 /* Frameworks */,
+				2D5DDF822D59FDD4002882C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D5DDF862D59FDD4002882C3 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				2D5DDF872D59FDD4002882C3 /* VPN ShivayaTests */,
+			);
+			name = "VPN ShivayaTests";
+			packageProductDependencies = (
+			);
+			productName = "VPN ShivayaTests";
+			productReference = 2D5DDF842D59FDD4002882C3 /* VPN ShivayaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2D5DDF8D2D59FDD4002882C3 /* VPN ShivayaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D5DDF9E2D59FDD4002882C3 /* Build configuration list for PBXNativeTarget "VPN ShivayaUITests" */;
+			buildPhases = (
+				2D5DDF8A2D59FDD4002882C3 /* Sources */,
+				2D5DDF8B2D59FDD4002882C3 /* Frameworks */,
+				2D5DDF8C2D59FDD4002882C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D5DDF902D59FDD4002882C3 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				2D5DDF912D59FDD4002882C3 /* VPN ShivayaUITests */,
+			);
+			name = "VPN ShivayaUITests";
+			packageProductDependencies = (
+			);
+			productName = "VPN ShivayaUITests";
+			productReference = 2D5DDF8E2D59FDD4002882C3 /* VPN ShivayaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D5DDF6C2D59FDD2002882C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					2D5DDF732D59FDD2002882C3 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					2D5DDF832D59FDD4002882C3 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 2D5DDF732D59FDD2002882C3;
+					};
+					2D5DDF8D2D59FDD4002882C3 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 2D5DDF732D59FDD2002882C3;
+					};
+				};
+			};
+			buildConfigurationList = 2D5DDF6F2D59FDD2002882C3 /* Build configuration list for PBXProject "VPN Shivaya" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2D5DDF6B2D59FDD2002882C3;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 2D5DDF752D59FDD2002882C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D5DDF732D59FDD2002882C3 /* VPN Shivaya */,
+				2D5DDF832D59FDD4002882C3 /* VPN ShivayaTests */,
+				2D5DDF8D2D59FDD4002882C3 /* VPN ShivayaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D5DDF722D59FDD2002882C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D5DDF822D59FDD4002882C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D5DDF8C2D59FDD4002882C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D5DDF702D59FDD2002882C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D5DDF802D59FDD4002882C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D5DDF8A2D59FDD4002882C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2D5DDF862D59FDD4002882C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D5DDF732D59FDD2002882C3 /* VPN Shivaya */;
+			targetProxy = 2D5DDF852D59FDD4002882C3 /* PBXContainerItemProxy */;
+		};
+		2D5DDF902D59FDD4002882C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D5DDF732D59FDD2002882C3 /* VPN Shivaya */;
+			targetProxy = 2D5DDF8F2D59FDD4002882C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2D5DDF962D59FDD4002882C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2D5DDF972D59FDD4002882C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2D5DDF992D59FDD4002882C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VPN Shivaya/Preview Content\"";
+				DEVELOPMENT_TEAM = 3565RSK98U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Anton-Reasin.VPN-Shivaya";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2D5DDF9A2D59FDD4002882C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VPN Shivaya/Preview Content\"";
+				DEVELOPMENT_TEAM = 3565RSK98U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Anton-Reasin.VPN-Shivaya";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2D5DDF9C2D59FDD4002882C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3565RSK98U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Anton-Reasin.VPN-ShivayaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VPN Shivaya.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VPN Shivaya";
+			};
+			name = Debug;
+		};
+		2D5DDF9D2D59FDD4002882C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3565RSK98U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Anton-Reasin.VPN-ShivayaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VPN Shivaya.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VPN Shivaya";
+			};
+			name = Release;
+		};
+		2D5DDF9F2D59FDD4002882C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3565RSK98U;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Anton-Reasin.VPN-ShivayaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "VPN Shivaya";
+			};
+			name = Debug;
+		};
+		2D5DDFA02D59FDD4002882C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3565RSK98U;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Anton-Reasin.VPN-ShivayaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "VPN Shivaya";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D5DDF6F2D59FDD2002882C3 /* Build configuration list for PBXProject "VPN Shivaya" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D5DDF962D59FDD4002882C3 /* Debug */,
+				2D5DDF972D59FDD4002882C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D5DDF982D59FDD4002882C3 /* Build configuration list for PBXNativeTarget "VPN Shivaya" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D5DDF992D59FDD4002882C3 /* Debug */,
+				2D5DDF9A2D59FDD4002882C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D5DDF9B2D59FDD4002882C3 /* Build configuration list for PBXNativeTarget "VPN ShivayaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D5DDF9C2D59FDD4002882C3 /* Debug */,
+				2D5DDF9D2D59FDD4002882C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D5DDF9E2D59FDD4002882C3 /* Build configuration list for PBXNativeTarget "VPN ShivayaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D5DDF9F2D59FDD4002882C3 /* Debug */,
+				2D5DDFA02D59FDD4002882C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2D5DDF6C2D59FDD2002882C3 /* Project object */;
+}
