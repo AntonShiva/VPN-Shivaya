@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D3B9CDB2D5BCAED00FAEB80 /* XRayCoreIOSWrapper.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D3B9CD92D5BCAEC00FAEB80 /* XRayCoreIOSWrapper.xcframework */; };
+		2D3B9CDC2D5BCBB400FAEB80 /* XRayCoreIOSWrapper.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D3B9CD92D5BCAEC00FAEB80 /* XRayCoreIOSWrapper.xcframework */; };
+		2D3B9CDD2D5BCBB400FAEB80 /* XRayCoreIOSWrapper.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2D3B9CD92D5BCAEC00FAEB80 /* XRayCoreIOSWrapper.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		2D493B952D5B859B00E39670 /* Network.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D5DDFC02D5A231F002882C3 /* Network.framework */; };
 		2D493B972D5B85B100E39670 /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D5DDFAC2D5A1EF6002882C3 /* NetworkExtension.framework */; };
 		2D5DDFB52D5A1EF6002882C3 /* VPNShivayaTunnel.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 2D5DDFAA2D5A1EF6002882C3 /* VPNShivayaTunnel.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -39,6 +42,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		2D3B9CDE2D5BCBB400FAEB80 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				2D3B9CDD2D5BCBB400FAEB80 /* XRayCoreIOSWrapper.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2D5DDFBA2D5A1EF6002882C3 /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -53,6 +67,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2D3B9CD92D5BCAEC00FAEB80 /* XRayCoreIOSWrapper.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = XRayCoreIOSWrapper.xcframework; sourceTree = "<group>"; };
 		2D5DDF742D59FDD2002882C3 /* VPN Shivaya.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VPN Shivaya.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D5DDF842D59FDD4002882C3 /* VPN ShivayaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VPN ShivayaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D5DDF8E2D59FDD4002882C3 /* VPN ShivayaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VPN ShivayaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -102,6 +117,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D3B9CDC2D5BCBB400FAEB80 /* XRayCoreIOSWrapper.xcframework in Frameworks */,
 				2D5DDFBD2D5A2313002882C3 /* NetworkExtension.framework in Frameworks */,
 				2D5DDFC22D5A2323002882C3 /* Network.framework in Frameworks */,
 			);
@@ -125,6 +141,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D3B9CDB2D5BCAED00FAEB80 /* XRayCoreIOSWrapper.xcframework in Frameworks */,
 				2D493B952D5B859B00E39670 /* Network.framework in Frameworks */,
 				2D493B972D5B85B100E39670 /* NetworkExtension.framework in Frameworks */,
 			);
@@ -159,6 +176,7 @@
 		2D5DDFAB2D5A1EF6002882C3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2D3B9CD92D5BCAEC00FAEB80 /* XRayCoreIOSWrapper.xcframework */,
 				2D5DDFC02D5A231F002882C3 /* Network.framework */,
 				2D5DDFAC2D5A1EF6002882C3 /* NetworkExtension.framework */,
 			);
@@ -176,6 +194,7 @@
 				2D5DDF712D59FDD2002882C3 /* Frameworks */,
 				2D5DDF722D59FDD2002882C3 /* Resources */,
 				2D5DDFBA2D5A1EF6002882C3 /* Embed Foundation Extensions */,
+				2D3B9CDE2D5BCBB400FAEB80 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
