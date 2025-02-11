@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2D5DDFAD2D5A1EF6002882C3 /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D5DDFAC2D5A1EF6002882C3 /* NetworkExtension.framework */; };
+		2D493B952D5B859B00E39670 /* Network.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D5DDFC02D5A231F002882C3 /* Network.framework */; };
+		2D493B972D5B85B100E39670 /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D5DDFAC2D5A1EF6002882C3 /* NetworkExtension.framework */; };
 		2D5DDFB52D5A1EF6002882C3 /* VPNShivayaTunnel.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 2D5DDFAA2D5A1EF6002882C3 /* VPNShivayaTunnel.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2D5DDFBD2D5A2313002882C3 /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D5DDFAC2D5A1EF6002882C3 /* NetworkExtension.framework */; };
+		2D5DDFC22D5A2323002882C3 /* Network.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D5DDFC02D5A231F002882C3 /* Network.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +58,7 @@
 		2D5DDF8E2D59FDD4002882C3 /* VPN ShivayaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VPN ShivayaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D5DDFAA2D5A1EF6002882C3 /* VPNShivayaTunnel.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = VPNShivayaTunnel.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D5DDFAC2D5A1EF6002882C3 /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
+		2D5DDFC02D5A231F002882C3 /* Network.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Network.framework; path = System/Library/Frameworks/Network.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -98,6 +102,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D5DDFBD2D5A2313002882C3 /* NetworkExtension.framework in Frameworks */,
+				2D5DDFC22D5A2323002882C3 /* Network.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,7 +125,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D5DDFAD2D5A1EF6002882C3 /* NetworkExtension.framework in Frameworks */,
+				2D493B952D5B859B00E39670 /* Network.framework in Frameworks */,
+				2D493B972D5B85B100E39670 /* NetworkExtension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,6 +159,7 @@
 		2D5DDFAB2D5A1EF6002882C3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2D5DDFC02D5A231F002882C3 /* Network.framework */,
 				2D5DDFAC2D5A1EF6002882C3 /* NetworkExtension.framework */,
 			);
 			name = Frameworks;
@@ -505,12 +513,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "VPN Shivaya/VPN Shivaya.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"VPN Shivaya/Preview Content\"";
 				DEVELOPMENT_TEAM = 3565RSK98U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "VPN-Shivaya-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -538,12 +548,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "VPN Shivaya/VPN Shivaya.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"VPN Shivaya/Preview Content\"";
 				DEVELOPMENT_TEAM = 3565RSK98U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "VPN-Shivaya-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

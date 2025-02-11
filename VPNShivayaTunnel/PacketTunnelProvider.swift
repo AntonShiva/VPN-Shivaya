@@ -5,7 +5,9 @@
 //  Created by Anton Rasen on 10.02.2025.
 //
 
+import Foundation
 import NetworkExtension
+import Network
 
 class PacketTunnelProvider: NEPacketTunnelProvider {
 
@@ -20,9 +22,7 @@ class PacketTunnelProvider: NEPacketTunnelProvider {
     
     override func handleAppMessage(_ messageData: Data, completionHandler: ((Data?) -> Void)?) {
         // Add code here to handle the message.
-        if let handler = completionHandler {
-            handler(messageData)
-        }
+        completionHandler?(messageData)
     }
     
     override func sleep(completionHandler: @escaping () -> Void) {
