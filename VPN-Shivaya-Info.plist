@@ -2,7 +2,7 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>Privacy - VPN Configuration Usage Description</key>
-	<string>Приложению требуется доступ к VPN для обеспечения безопасного соединения</string>
+    <key>NSVPNUsageDescription</key>
+    <string>Приложению требуется доступ к VPN для обеспечения безопасного соединения</string>
 </dict>
 </plist>

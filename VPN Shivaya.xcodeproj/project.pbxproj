@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2D3B9CDB2D5BCAED00FAEB80 /* XRayCoreIOSWrapper.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D3B9CD92D5BCAEC00FAEB80 /* XRayCoreIOSWrapper.xcframework */; };
-		2D3B9CDC2D5BCBB400FAEB80 /* XRayCoreIOSWrapper.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D3B9CD92D5BCAEC00FAEB80 /* XRayCoreIOSWrapper.xcframework */; };
-		2D3B9CDD2D5BCBB400FAEB80 /* XRayCoreIOSWrapper.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2D3B9CD92D5BCAEC00FAEB80 /* XRayCoreIOSWrapper.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		2D493B952D5B859B00E39670 /* Network.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D5DDFC02D5A231F002882C3 /* Network.framework */; };
 		2D493B972D5B85B100E39670 /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D5DDFAC2D5A1EF6002882C3 /* NetworkExtension.framework */; };
 		2D5DDFB52D5A1EF6002882C3 /* VPNShivayaTunnel.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 2D5DDFAA2D5A1EF6002882C3 /* VPNShivayaTunnel.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		2D5DDFBD2D5A2313002882C3 /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D5DDFAC2D5A1EF6002882C3 /* NetworkExtension.framework */; };
 		2D5DDFC22D5A2323002882C3 /* Network.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D5DDFC02D5A231F002882C3 /* Network.framework */; };
+		2D9278502D5CB1D900F9502D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D92784F2D5CB1D900F9502D /* XCTest.framework */; platformFilter = ios; };
+		2D9278512D5CB1D900F9502D /* XCTest.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2D92784F2D5CB1D900F9502D /* XCTest.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2DE6095F2D61F9F00069C9B0 /* XRayCoreIOSWrapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DE6095E2D61F9F00069C9B0 /* XRayCoreIOSWrapper.framework */; };
+		2DE609622D61F9FB0069C9B0 /* XRayCoreIOSWrapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DE6095E2D61F9F00069C9B0 /* XRayCoreIOSWrapper.framework */; };
+		2DE609642D61FA0D0069C9B0 /* XRayCoreIOSWrapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DE6095E2D61F9F00069C9B0 /* XRayCoreIOSWrapper.framework */; };
+		2DE609652D61FA0D0069C9B0 /* XRayCoreIOSWrapper.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2DE6095E2D61F9F00069C9B0 /* XRayCoreIOSWrapper.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2DF2B9472D5FB039001314AE /* Network.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DF2B9462D5FB039001314AE /* Network.framework */; };
+		2DF2B9492D5FB045001314AE /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DF2B9482D5FB045001314AE /* NetworkExtension.framework */; };
+		2DF2B94B2D5FB077001314AE /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DF2B94A2D5FB077001314AE /* libresolv.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +54,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				2D3B9CDD2D5BCBB400FAEB80 /* XRayCoreIOSWrapper.xcframework in Embed Frameworks */,
+				2DE609652D61FA0D0069C9B0 /* XRayCoreIOSWrapper.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -64,16 +70,31 @@
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2D9278522D5CB1D900F9502D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				2D9278512D5CB1D900F9502D /* XCTest.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		2D3B9CD92D5BCAEC00FAEB80 /* XRayCoreIOSWrapper.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = XRayCoreIOSWrapper.xcframework; sourceTree = "<group>"; };
 		2D5DDF742D59FDD2002882C3 /* VPN Shivaya.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VPN Shivaya.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D5DDF842D59FDD4002882C3 /* VPN ShivayaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VPN ShivayaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D5DDF8E2D59FDD4002882C3 /* VPN ShivayaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VPN ShivayaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D5DDFAA2D5A1EF6002882C3 /* VPNShivayaTunnel.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = VPNShivayaTunnel.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D5DDFAC2D5A1EF6002882C3 /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
 		2D5DDFC02D5A231F002882C3 /* Network.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Network.framework; path = System/Library/Frameworks/Network.framework; sourceTree = SDKROOT; };
+		2D92784F2D5CB1D900F9502D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		2DE6095E2D61F9F00069C9B0 /* XRayCoreIOSWrapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XRayCoreIOSWrapper.framework; path = Frameworks/XRayCoreIOSWrapper.framework; sourceTree = "<group>"; };
+		2DF2B9462D5FB039001314AE /* Network.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Network.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/System/Library/Frameworks/Network.framework; sourceTree = DEVELOPER_DIR; };
+		2DF2B9482D5FB045001314AE /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/System/Library/Frameworks/NetworkExtension.framework; sourceTree = DEVELOPER_DIR; };
+		2DF2B94A2D5FB077001314AE /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/lib/libresolv.tbd; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -117,7 +138,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D3B9CDC2D5BCBB400FAEB80 /* XRayCoreIOSWrapper.xcframework in Frameworks */,
+				2DE609642D61FA0D0069C9B0 /* XRayCoreIOSWrapper.framework in Frameworks */,
 				2D5DDFBD2D5A2313002882C3 /* NetworkExtension.framework in Frameworks */,
 				2D5DDFC22D5A2323002882C3 /* Network.framework in Frameworks */,
 			);
@@ -127,6 +148,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DE609622D61F9FB0069C9B0 /* XRayCoreIOSWrapper.framework in Frameworks */,
+				2DF2B94B2D5FB077001314AE /* libresolv.tbd in Frameworks */,
+				2DF2B9492D5FB045001314AE /* NetworkExtension.framework in Frameworks */,
+				2DF2B9472D5FB039001314AE /* Network.framework in Frameworks */,
+				2D9278502D5CB1D900F9502D /* XCTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,7 +167,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D3B9CDB2D5BCAED00FAEB80 /* XRayCoreIOSWrapper.xcframework in Frameworks */,
+				2DE6095F2D61F9F00069C9B0 /* XRayCoreIOSWrapper.framework in Frameworks */,
 				2D493B952D5B859B00E39670 /* Network.framework in Frameworks */,
 				2D493B972D5B85B100E39670 /* NetworkExtension.framework in Frameworks */,
 			);
@@ -176,7 +202,11 @@
 		2D5DDFAB2D5A1EF6002882C3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				2D3B9CD92D5BCAEC00FAEB80 /* XRayCoreIOSWrapper.xcframework */,
+				2DE6095E2D61F9F00069C9B0 /* XRayCoreIOSWrapper.framework */,
+				2DF2B94A2D5FB077001314AE /* libresolv.tbd */,
+				2DF2B9482D5FB045001314AE /* NetworkExtension.framework */,
+				2DF2B9462D5FB039001314AE /* Network.framework */,
+				2D92784F2D5CB1D900F9502D /* XCTest.framework */,
 				2D5DDFC02D5A231F002882C3 /* Network.framework */,
 				2D5DDFAC2D5A1EF6002882C3 /* NetworkExtension.framework */,
 			);
@@ -218,6 +248,7 @@
 				2D5DDF802D59FDD4002882C3 /* Sources */,
 				2D5DDF812D59FDD4002882C3 /* Frameworks */,
 				2D5DDF822D59FDD4002882C3 /* Resources */,
+				2D9278522D5CB1D900F9502D /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -538,6 +569,10 @@
 				DEVELOPMENT_ASSET_PATHS = "\"VPN Shivaya/Preview Content\"";
 				DEVELOPMENT_TEAM = 3565RSK98U;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "VPN-Shivaya-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -573,6 +608,10 @@
 				DEVELOPMENT_ASSET_PATHS = "\"VPN Shivaya/Preview Content\"";
 				DEVELOPMENT_TEAM = 3565RSK98U;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "VPN-Shivaya-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -604,11 +643,18 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3565RSK98U;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Anton-Reasin.VPN-ShivayaTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -623,11 +669,18 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3565RSK98U;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Anton-Reasin.VPN-ShivayaTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -676,6 +729,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3565RSK98U;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+					"$(BUILT_PRODUCTS_DIR)",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = VPNShivayaTunnel/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = VPNShivayaTunnel;
@@ -706,6 +764,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3565RSK98U;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+					"$(BUILT_PRODUCTS_DIR)",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = VPNShivayaTunnel/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = VPNShivayaTunnel;

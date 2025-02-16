@@ -11,7 +11,7 @@ struct VPNControlView: View {
     @State private var isConnected = false
       @State private var isShowingAddressInput = false
       @State private var vlessAddress = ""
-      
+    @State private var isVPNInitialized = false
       var body: some View {
           VStack(spacing: 20) {
               // Статус соединения
@@ -48,6 +48,18 @@ struct VPNControlView: View {
               .buttonStyle(.plain)
               .sheet(isPresented: $isShowingAddressInput) {
                   AddressInputView(vlessAddress: $vlessAddress, isPresented: $isShowingAddressInput)
+              }
+          }
+          .task {
+              // Инициализируем VPN при первом запуске
+              if !isVPNInitialized {
+                  do {
+                      try await VPNService.shared.initialize()
+                      try await VPNService.shared.startVPN()
+                      isVPNInitialized = true
+                  } catch {
+                      print("VPN initialization error: \(error)")
+                  }
               }
           }
           .padding()

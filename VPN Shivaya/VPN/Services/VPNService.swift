@@ -61,4 +61,41 @@ class VPNService {
         
         return needsMigration
     }
+    
+    func startVPN() async throws {
+        // Если менеджер не инициализирован - инициализируем
+        if tunnelProviderManager == nil {
+            try await initialize()
+        }
+        
+        guard let manager = tunnelProviderManager else {
+            throw NSError(domain: "VPNError", code: -1, userInfo: [NSLocalizedDescriptionKey: "VPN manager not initialized"])
+        }
+        
+        // Настраиваем протокол если еще не настроен
+        if manager.protocolConfiguration == nil {
+            let proto = NETunnelProviderProtocol()
+            proto.providerBundleIdentifier = "com.Anton-Reasin.VPN.Shivaya.VPNShivayaTunnel"
+            proto.serverAddress = "VPN Server"
+            
+            // Добавляем VLESS конфигурацию
+            var providerConfig: [String: Any] = [:]
+            providerConfig["VPNType"] = "VLESS"
+            proto.providerConfiguration = providerConfig
+            
+            manager.protocolConfiguration = proto
+            manager.localizedDescription = "VPN Shivaya"
+            manager.isEnabled = true
+            
+            try await manager.saveToPreferences()
+            try await manager.loadFromPreferences()
+        }
+        
+        // Запускаем VPN
+        try manager.connection.startVPNTunnel()
+    }
+    
+    func stopVPN() {
+        tunnelProviderManager?.connection.stopVPNTunnel()
+    }
 }

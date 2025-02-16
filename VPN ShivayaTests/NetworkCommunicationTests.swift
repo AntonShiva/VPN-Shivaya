@@ -11,9 +11,6 @@ import NetworkExtension
 import Network
 @testable import VPN_Shivaya
 
-import XCTest
-import NetworkExtension
-@testable import VPN_Shivaya
 
 final class NetworkCommunicationTests: XCTestCase {
     
